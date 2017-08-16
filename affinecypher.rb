@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #encrypt: y = ax + b mod 26
-#decrypt: x = inverse_a*(y-b) mod 26 NOTICE inverse a is the multiplicative inverse not 1/a
+#decrypt: x = inverse_a*(y-b) mod 26 NOTICE inverse a is the multiplicative inverse not 1/az  
 #the key is array [a,b]
 def encrypt(x, key)
   x = x.ord - 65
